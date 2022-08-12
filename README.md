@@ -11,9 +11,9 @@ I'm `Adnan Sarkar`. This is the 14th assignment in my [Full Stack Javascript](ht
 ## 🖥 Preview
 `note:` please make sure the preview screen is `1920 x 1080`
 
-[Live Preview]()
+[Live Preview](https://dance-home-page-project-14-by-adnan-sarkar.netlify.app/)
 
-![]()
+![](Dance%20Home%20Page.png)
 
 ##  What I have learned in this project?
 - Flex-box for elements alignment.
