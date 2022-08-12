@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+
+/* ============== navbar ============== */
+nav {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-items::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 2px;
+    top: 50%;
+    left: -90%;
+    background-color: #4E4D4D;
+}
+
+.nav-items li {
+    margin-right: 70px;
+}
+
+.nav-items li:last-child {
+    margin-right: 0;
+}
+
+.nav-item {
+    font-size: 18px;
+    color: #858484;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: color 200ms linear;
+}
+
+.nav-item:hover {
+    color: #4E4D4D;
+}
+
+.nav-item.nav-active {
+    color: #4E4D4D;
+}
+
+
+
+/* ============== banner ============== */
+#banner {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.banner-content {
+    display: flex;
+}
+
+.banner-img img {
+    height: 100vh;
+}
+
+.banner-right {
+    width: 100%;
+    margin: 150px 100px 0 100px;
+}
+
+.banner-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-top-left-content {
+    display: flex;
+}
+
+.banner-top-left-content h1 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 150px;
+    color: #fff;
+    -webkit-text-stroke: 2px #333333;
+    font-weight: 900;
+    line-height: 140px;
+}
+
+.banner-top-left-content h1 span {
+    color: #333333;
+    margin-left: 175px;
+}
+
+.banner-tittle-small {
+    font-family: "Merriweather", sans-serif;
+    align-self: flex-end;
+    padding-left: 50px;
+    font-size: 30px;
+    color: #828282;
+    font-weight: 300;
+}
+
+.social-icons li {
+    margin-bottom: 50px;
+}
+
+.social-icons li:last-child {
+    margin-bottom: 0;
+}
+
+.banner-btn {
+    margin: 60px 0;
+    text-align: right;
+}
+
+.btn-fill {
+    color: #fff;
+    padding: 25px 80px;
+    background-color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.banner-bottom {
+    display: flex;
+}
+
+.banner-bottom-left {
+    width: 30%;
+    border-left: 2px solid #858484;
+    padding-left: 50px;
+}
+
+.banner-bottom-left ul li {
+    margin-top: 40px;
+    position: relative;
+}
+
+.banner-bottom-left ul li::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #858484;
+    left: -61px;
+}
+
+.banner-bottom-left ul li:hover::before {
+    background-color: #333333;
+}
+
+.banner-bottom-left ul li:hover > a {
+    color: #333333;
+}
+
+.banner-bottom-left ul li:first-child::before {
+    width: 25px;
+    height: 25px;
+    background-color: #333333;
+    left: -63px;
+}
+
+.banner-bottom-left ul li:first-child {
+    margin-top: 0;
+}
+
+.banner-bottom-left ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #858484;
+}
+
+.banner-bottom-left ul li a.active {
+    color: #333333;
+}
+
+.banner-bottom-right {
+    width: 100%;
+    margin: 65px 0 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-bottom-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.banner-bottom-content p::before {
+    content: '❜❜';
+    position: absolute;
+    top: -100px;
+    left: 0;
+    font-size: 100px;
+}
+
+.banner-bottom-img img {
+    width: 410px;
+}
+
+.banner-bottom-arrow {
+    margin-top: 70px;
+}
+
+.banner-bottom-arrow img {
+    width: 40px;
+}
