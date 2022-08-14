@@ -2,15 +2,13 @@
 
 Hello There,
 
-I'm `Adnan Sarkar`. This is the 14th assignment in my [Full Stack Javascript](https://ineuron.ai/course/Full-Stack-Javascript-Web-Developer) course. Where I designed this page using raw HTML & CSS. This design is not responsive, because at first, I prove to myself that I'm comfortable designing anything using raw HTML-CSS. It looks perfect on screen size `1920 x 1080`.
+I'm `Adnan Sarkar`. This is the 14th assignment in my [Full Stack Javascript](https://ineuron.ai/course/Full-Stack-Javascript-Web-Developer) course. Where I designed this page using raw HTML & CSS. This design is responsive for all device. For responsive, I did use only media query, not any CSS frameworks.
 
 ## 🛠 Technologies Used
 - HTML
 - CSS
 
 ## 🖥 Preview
-`note:` please make sure the preview screen is `1920 x 1080`
-
 [Live Preview](https://dance-home-page-project-14-by-adnan-sarkar.netlify.app/)
 
 ![](Dance%20Home%20Page.png)
@@ -18,9 +16,10 @@ I'm `Adnan Sarkar`. This is the 14th assignment in my [Full Stack Javascript](ht
 ##  What I have learned in this project?
 - Flex-box for elements alignment.
 - A clear understanding of CSS position.
+- Media query for responsive design.
 
 ## ⏲ Time to finish the project
-It took me around 3 hours to complete this project.
+It took me around 5 hours to complete this project with responsiveness.
 
 ## 📢 Social Links
 - [![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/AdnanSarkar14)

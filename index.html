@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <title>Dance Home Page</title>
 </head>
@@ -18,6 +22,10 @@
                 <div class="nav-brand">
                     <img src="assets/Logo.svg" alt="logo">
                 </div>
+                <input type="checkbox" name="" id="nav-bar-click">
+                <label for="nav-bar-click" class="nav-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
                 <ul class="nav-items">
                     <li><a href="#" class="nav-item nav-active">Home</a></li>
                     <li><a href="#" class="nav-item">About US</a></li>
@@ -74,13 +82,15 @@
                     </div>
                     <div class="banner-bottom">
                         <div class="banner-bottom-left">
-                            <ul>
-                                <li><a href="#" class="active">Photography</a></li>
-                                <li><a href="#">Videography</a></li>
-                                <li><a href="#">Graphic Design</a></li>
-                                <li><a href="#">Illustration</a></li>
-                                <li><a href="#">Animation</a></li>
-                            </ul>
+                            <div class="banner-bottom-left-items">
+                                <ul>
+                                    <li><a href="#" class="active">Photography</a></li>
+                                    <li><a href="#">Videography</a></li>
+                                    <li><a href="#">Graphic Design</a></li>
+                                    <li><a href="#">Illustration</a></li>
+                                    <li><a href="#">Animation</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="banner-bottom-right">
                             <div class="banner-bottom-content">

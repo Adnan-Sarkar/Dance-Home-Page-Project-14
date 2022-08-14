@@ -68,6 +68,14 @@ nav {
     color: #4E4D4D;
 }
 
+#nav-bar-click {
+    display: none;
+}
+
+.nav-icon {
+    display: none;
+}
+
 
 
 /* ============== banner ============== */
@@ -150,6 +158,9 @@ nav {
 
 .banner-bottom-left {
     width: 30%;
+}
+
+.banner-bottom-left-items {
     border-left: 2px solid #858484;
     padding-left: 50px;
 }
